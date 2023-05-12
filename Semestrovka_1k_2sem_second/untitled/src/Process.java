@@ -78,14 +78,14 @@ public class Process {
 
         //tree.showCustom();
 
-        System.out.println("Adding:");
-        System.out.println( Helper.getAverageOfList(operationsInAdd)+" operations" );
-        System.out.println( Helper.getAverageOfList(timesInAdd)+" nano sec" );
-        System.out.println();
-
         System.out.println("Searching:");
         System.out.println( Helper.getAverageOfList(operationsInSearch)+" operations" );
         System.out.println( Helper.getAverageOfList(timesInSearch)+" nano sec" );
+        System.out.println();
+
+        System.out.println("Adding:");
+        System.out.println( Helper.getAverageOfList(operationsInAdd)+" operations" );
+        System.out.println( Helper.getAverageOfList(timesInAdd)+" nano sec" );
         System.out.println();
 
         System.out.println("Deleting:");
